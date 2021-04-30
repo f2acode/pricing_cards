@@ -1,3 +1,7 @@
+## 0.0.4
+
+- Fix image on README
+
 ## 0.0.3
 
 - Improve README

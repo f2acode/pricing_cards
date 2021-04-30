@@ -6,7 +6,7 @@ Awesome pricing cards for your flutter project.
 
 The example:
 
-<img src='./example/flutter_01.png' width=300>
+<img src='https://raw.githubusercontent.com/f2acode/pricing_cards/master/example/flutter_01.png' width=300>
 
 The code with all possible parameters:
 
