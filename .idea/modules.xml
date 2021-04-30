@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pricing_cards.iml" filepath="$PROJECT_DIR$/pricing_cards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/pricing_cards_android.iml" filepath="$PROJECT_DIR$/android/pricing_cards_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/pricing_cards_example_android.iml" filepath="$PROJECT_DIR$/example/android/pricing_cards_example_android.iml" />
+    </modules>
+  </component>
+</project>
