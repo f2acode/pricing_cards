@@ -1,14 +1,18 @@
-# pricing_cards
+# Pricing cards
 
-Awesome pricing cards for your flutter project.
+[![pub package](https://img.shields.io/pub/v/pricing_cards?logo=dart&label=stable&style=flat-square)](https://pub.dev/packages/pricing_cards) [![GitHub license](https://img.shields.io/github/license/f2acode/pricing_cards?style=flat-square)](https://github.com/f2acode/pricing_cards/blob/master/LICENSE)
 
-## Example with all the parameters
+Awesome pricing cards with custom style options for your flutter project.
 
-The example:
+You can give as **much cards you want** to this and **personalize the style of each one**.
+
+## Example
+
+The example with all the parameters:
 
 <img src='https://raw.githubusercontent.com/f2acode/pricing_cards/master/example/flutter_01.png' width=300>
 
-The code with all possible parameters:
+The code of this:
 
 ```dart
 Column(
@@ -113,4 +117,5 @@ Column(
 
 ## Help this project
 
-Contributions are very welcome!
+- Give an 🌟 on Github;
+- Contributions are very welcome! ❤️

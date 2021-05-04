@@ -1,6 +1,6 @@
 name: pricing_cards
-description: Awesome pricing cards
-version: 0.0.6
+description: Awesome flexible pricing cards with custom style options for you Flutter project
+version: 0.0.7
 repository: https://github.com/f2acode/pricing_cards
 
 environment:

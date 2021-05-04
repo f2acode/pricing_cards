@@ -1,9 +1,12 @@
+/// Awesome flexible pricing cards with custom style options for you Flutter project
 library pricing_cards;
 
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 
+/// The model to define data input for [PricingCards]
 class PricingCard {
+  /// Creates a new instance of a card
   const PricingCard({
     required this.title,
     required this.price,
@@ -26,27 +29,57 @@ class PricingCard {
     this.subPriceStyle,
   });
 
+  /// The top text
   final String title;
+
+  /// The main big text
   final String price;
+
+  /// The small text under the price
   final String subPriceText;
+
+  /// The (possibly) smooth text on the bottom
   final String billedText;
+
+  /// The function called when the user press this card
   final void Function()? onPress;
+
+  /// Defines this card as main so it will have a special [cardBorder] and a badge
   final bool mainPricing;
+
+  /// The text that will appear above the card if [mainPricing] is true
   final String mainPricingHighlightText;
+
+  /// The [price] style
   final TextStyle? priceStyle;
+
+  /// The [billedText] style
   final TextStyle? billedTextStyle;
+
+  /// The [subPriceText] style
   final TextStyle? subPriceStyle;
+
+  /// The [title] style
   final TextStyle? titleStyle;
+
+  /// The border style of this
   final RoundedRectangleBorder? cardBorder;
+
+  /// The background color of this
   final Color? cardColor;
 }
 
+/// A widget list with one or more [PricingCards]
 class PricingCards extends StatelessWidget {
+  /// Creates a widget list of [PricingCard]
+  ///
+  /// This list wraps accordingly to the width of the parent.
   const PricingCards({
     Key? key,
     required this.pricingCards,
   }) : super(key: key);
 
+  /// The list of this, you can give this as much [PricingCard] you want
   final List<PricingCard> pricingCards;
 
   @override
