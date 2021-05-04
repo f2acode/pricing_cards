@@ -1,3 +1,5 @@
+library pricing_cards;
+
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 

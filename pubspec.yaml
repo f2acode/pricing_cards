@@ -1,6 +1,6 @@
 name: pricing_cards
 description: Awesome pricing cards
-version: 0.0.5
+version: 0.0.6
 repository: https://github.com/f2acode/pricing_cards
 
 environment:
@@ -17,10 +17,3 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.example.pricing_cards
-        pluginClass: PricingCardsPlugin
-      ios:
-        pluginClass: PricingCardsPlugin

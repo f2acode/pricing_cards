@@ -1,3 +1,7 @@
+## 0.0.6
+
+- Convert into a package
+
 ## 0.0.5
 
 - Fix repo
