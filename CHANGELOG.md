@@ -1,3 +1,7 @@
+## 0.0.8
+
+- Fix duplicated Badge import
+
 ## 0.0.7
 
 - Improve `dartdoc`;
